@@ -12,7 +12,7 @@ body{
 .header{
     height: 120vh;
     background-color: #1d1d1d;
-    width: 40px;
+    width: 10px;
     padding: 10px;
     box-sizing: border-box;
     overflow: hidden;
@@ -22,7 +22,7 @@ body{
 }
 
 .header:hover{
-    width: 4000px;
+    width: 450px;
 }
 
 .menu{
@@ -36,7 +36,6 @@ body{
     
    
 }
-
 
 
 a{
@@ -54,7 +53,7 @@ h1{
     grid-template-columns: 1fr 1fr;
     margin: 0 auto;
     grid-gap: 20px;
-    padding: 30px 350px;
+    padding: 30px 250px;
     flex-wrap: wrap;
     max-width: 1000px;
     height: 100vh;
@@ -68,14 +67,6 @@ h1{
     cursor: pointer;
 }
 
-.card >p{
-    background-color: #1d1d1d;
-    color: #f1ca84;
-    padding: 10px;
-    border-radius: 5%;
-    
-
-}
 
 .card:hover > :not(:hover){
     opacity: 0.3;
